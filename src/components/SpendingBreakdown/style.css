@@ -1,0 +1,55 @@
+.spendingBreakdown {
+  margin: 8px 0px;
+}
+
+.spendingBreakdown .title {
+  font-size: 20px;
+  color: #042c5c;
+  letter-spacing: 0.39px;
+  font-weight: 900;
+}
+
+.spendingBreakdown .data {
+  margin-top: 16px;
+  width: 100%;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.05);
+}
+
+.spendingBreakdown .data .content {
+  padding: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.spendingBreakdown .contentIcon {
+  height: 16px;
+  width: 16px;
+  padding: 12px;
+  border-radius: 8px;
+}
+
+.spendingBreakdown .label {
+  flex-grow: 2.5;
+  font-size: 16px;
+  font-weight: 600;
+  color: #042c5c;
+  letter-spacing: 0.4px;
+}
+
+.spendingBreakdown .date {
+  font-size: 13px;
+  font-weight: normal;
+  letter-spacing: 0.27px;
+  color: #77869e;
+}
+
+.spendingBreakdown .amount {
+  flex-grow: 0.5;
+  font-size: 16px;
+  font-weight: 900;
+  color: #ee5a55;
+  letter-spacing: 0.4px;
+}

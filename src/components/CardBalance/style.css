@@ -1,0 +1,52 @@
+.balance .title {
+  font-size: 13px;
+  font-weight: 900;
+  letter-spacing: 0.1px;
+  color: #77869e;
+}
+
+.balance .balanceAmount {
+  margin-top: 4px;
+  font-size: 30px;
+  font-weight: 900;
+  letter-spacing: 0.85px;
+  color: #042c5c;
+}
+
+.trend .trendIcon {
+  height: 12px;
+  width: 8px;
+}
+
+.trend .positive {
+  color: #1bc773;
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.trend .amount {
+  font-size: 12px;
+  font-weight: 900;
+  letter-spacing: 0.3px;
+}
+
+.positive .trendIcon {
+  padding: 7px;
+  background-color: #e2f2eb;
+  border-radius: 6px;
+  margin-right: 12px;
+}
+
+.negative .trendIcon {
+  padding: 7px;
+  background-color: #f6e6e7;
+  border-radius: 6px;
+  margin-right: 12px;
+}
+
+.trend .negative {
+  color: #f24750;
+  display: flex;
+  align-items: center;
+}
