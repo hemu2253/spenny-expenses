@@ -1,10 +1,13 @@
 # spenny expenses isntallation steps
 
-clone repo and install dependencies using below command.
+Clone repo and install dependencies using below command
 
 ## npm install
 
-After installing, start server with below command.
+Once packages are installed, run
 
 ## npm start
+
+to start development mode.
+Open http://localhost:3000 to view it in the browser.
 
