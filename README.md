@@ -2,12 +2,11 @@
 
 Clone repo and install dependencies using below command
 
-## npm install
+### `npm install`
 
 Once packages are installed, run
 
-## npm start
+### `npm start` 
 
-to start development mode.
-Open http://localhost:3000 to view it in the browser.
+to start development mode.<br />Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
