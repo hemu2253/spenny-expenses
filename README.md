@@ -1,3 +1,10 @@
-# spenny expenses
+# spenny expenses isntallation steps
 
-## The branches of this project are sorted in the order they were coded.
+clone repo and install dependencies using below command.
+
+## npm install
+
+After installing, start server with below command.
+
+## npm start
+
