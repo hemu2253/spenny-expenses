@@ -1,0 +1,136 @@
+.parentDiv {
+  height: 100vh;
+  width: 100%;
+  background-color: #f8f9f9;
+  font-family: "Avenir";
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.titleBar {
+  padding: 24px;
+}
+
+.titleBar .title {
+  font-size: 20px;
+  color: #042c5c;
+  letter-spacing: 0.39px;
+  font-weight: 900;
+}
+
+.content {
+  padding: 8px 24px;
+}
+
+.balance .title {
+  font-size: 13px;
+  font-weight: 900;
+  letter-spacing: 0.1px;
+  color: #77869e;
+}
+
+.balance .balanceAmount {
+  margin-top: 4px;
+  font-size: 30px;
+  font-weight: 900;
+  letter-spacing: 0.85px;
+  color: #042c5c;
+}
+
+.trend .trendIcon {
+  height: 12px;
+  width: 8px;
+}
+
+.trend .positive {
+  color: #1bc773;
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.trend .amount {
+  font-size: 12px;
+  font-weight: 900;
+  letter-spacing: 0.3px;
+}
+
+.trend .positive .trendIcon {
+  padding: 7px;
+  background-color: #e2f2eb;
+  border-radius: 6px;
+  margin-right: 12px;
+}
+
+.trend .negative .trendIcon {
+  padding: 7px;
+  background-color: #f6e6e7;
+  border-radius: 6px;
+  margin-right: 12px;
+}
+
+.trend .negative {
+  color: #f24750;
+  display: flex;
+  align-items: center;
+}
+
+.spendingBreakdown {
+  margin: 8px 0px;
+}
+
+.spendingBreakdown .title {
+  font-size: 20px;
+  color: #042c5c;
+  letter-spacing: 0.39px;
+  font-weight: 900;
+}
+
+.spendingBreakdown .data {
+  margin-top: 16px;
+  width: 100%;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.05);
+}
+
+.spendingBreakdown .data .content {
+  padding: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.data .content .contentIcon {
+  height: 12px;
+  width: 12px;
+  padding: 16px;
+  border-radius: 8px;
+}
+
+.data .content .label {
+  flex-grow: 2.5;
+  font-size: 16px;
+  font-weight: 900;
+  color: #042c5c;
+  letter-spacing: 0.4px;
+}
+
+.data .content .label .date {
+  font-size: 13px;
+  font-weight: normal;
+  letter-spacing: 0.27px;
+  color: #77869e;
+}
+
+.data .content .amount {
+  flex-grow: 0.5;
+  font-size: 16px;
+  font-weight: 900;
+  color: #ee5a55;
+  letter-spacing: 0.4px;
+}
